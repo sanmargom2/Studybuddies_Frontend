@@ -8,4 +8,5 @@ before_script:
 install:
   - pip install codacy-coverage
 script:
+  - npm update
   - npm run build
