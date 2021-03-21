@@ -8,4 +8,4 @@ before_script:
 install:
   - pip install codacy-coverage
 script:
-  - ng build --prod --base-href https://github.com/sanmargom2/Studybuddies_Frontend.git
+  - npm run build
